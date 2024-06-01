@@ -23,7 +23,9 @@ function Card({ data }) {
         </div>
         {data.tag.isOpen && (
           <div
-            className={`${data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-700"} text-white/90 py-[9px] text-center text-sm font-normal`}
+            className={`${
+              data.tag.tagColor === "blue" ? "bg-blue-600" : "bg-green-700"
+            } text-white/90 py-[9px] text-center text-sm font-normal`}
           >
             <p>{data.tag.tagTitle}</p>
           </div>
