@@ -12,3 +12,7 @@
 body{
   font-family: "Reddit Sans", sans-serif;
 }
+
+::selection{
+  color: rgb(0, 128, 154);
+}
