@@ -9,6 +9,8 @@ Currently, two official plugins are available:
 
 ## Use React Icons
 
+Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using.
+
 - Install react-icons
 
 ```javascript
@@ -21,7 +23,7 @@ npm install react-icons --save
 import { FaFileLines } from "react-icons/fa6";
 ```
 
--use icon
+- Use icon
 
 ```javascript
 <FaFileLines />
