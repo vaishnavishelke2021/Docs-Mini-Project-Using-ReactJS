@@ -2,10 +2,15 @@
 import { FaFileLines } from "react-icons/fa6";
 import { MdDownloadForOffline } from "react-icons/md";
 import { IoIosCloseCircle } from "react-icons/io";
+import { motion } from "framer-motion";
 
-function Card({ data }) {
+function Card({ data, reference }) {
   return (
-    <div className="w-[11.7rem] h-[15rem] rounded-[2rem] relative bg-zinc-800/60 px-5 py-7 my-5 mx-5 overflow-hidden">
+    <motion.div
+      drag
+      dragConstraints={reference} whileDrag={{scale:1.1}}
+      className="w-[11.7rem] h-[15rem] rounded-[2rem] relative bg-zinc-800/60 px-5 py-7 my-5 mx-4 overflow-hidden"
+    >
       <span className="text-white/60">
         <FaFileLines />
       </span>
@@ -31,7 +36,7 @@ function Card({ data }) {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
 

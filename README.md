@@ -28,3 +28,17 @@ import { FaFileLines } from "react-icons/fa6";
 ```javascript
 <FaFileLines />
 ```
+
+## Use Framer Motion
+
+- Install framer motion
+
+```javascript
+npm install framer-motion
+```
+
+- Import
+
+```javascript
+import { motion } from "framer-motion";
+```
