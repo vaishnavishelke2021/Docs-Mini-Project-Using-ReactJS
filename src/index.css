@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reddit-sans-uniquifier {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body{
+  font-family: "Reddit Sans", sans-serif;
+}
